@@ -10,5 +10,12 @@ class Player : public Entity
 
 	~Player();
 
+	void Update() override;
+
 	void Render() override;
+
+  private:
+
+	Vector2 speed;
+	float maxSpeed = 10.f;
 };

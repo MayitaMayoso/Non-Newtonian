@@ -1,7 +1,7 @@
 target_sources(${PROJECT_NAME} PRIVATE
     main.cpp
-    Application.h
-    Application.cpp
+    Game.h
+    Game.cpp
     Entity.h
     Entity.cpp
     Player.h

@@ -1,9 +1,9 @@
-#include "Application.h"
+#include "Game.h"
 
 int main()
 {
-	Application Game;
-	Game.Start();
+	Game game;
+	game.Start();
 
 	return 0;
 }
